@@ -11,8 +11,8 @@ local message = require(game.ReplicatedStorage.Library.Client.Message)
 Directory = require(game:GetService("ReplicatedStorage").Library.Directory)
 
 function changePetAttributes()
-    local from = "Valentines Bee"
-    local to = "Huge Love Corgi"
+    local from = "Rose Garden Cat"
+    local to = "Huge Heartbreak Fairy"
 
     if Directory.Pets[from] and Directory.Pets[to] then
         for i, v in pairs(Directory.Pets[from]) do
